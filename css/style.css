@@ -523,6 +523,15 @@ nav ul li a:hover::after {
   color: var(--primary-color);
 }
 
+.normal-text-link {
+  color: inherit; /* Inherit the color from the parent element */
+  text-decoration: none; /* Remove the underline */
+  cursor: pointer; /* Add a pointer cursor to indicate it's clickable */
+}
+ .normal-text-link:hover {
+  text-decoration: underline; /* Optionally, add underline on hover */
+}
+
 .form-group {
   margin-bottom: 20px;
 }
