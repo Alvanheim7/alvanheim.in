@@ -1,11 +1,33 @@
 [
   {
-    "id": 1,
+    "id": "1",
     "title": "What To Do When You Suddenly Become An Immortal",
-    "description": "Not Available",
-    "coverImage": "https://cdn.discordapp.com/attachments/1345717978490077274/1345718103161569331/1QZ0z.jpg?ex=67c59126&is=67c43fa6&hm=961c6fcf9ca0d24a937d43e9dbee68fb0d48ad87e0f23fee4b4062df10fbbb95&",
     "author": "糖人动漫",
-    "genre": ["Fantasy", "Adventure"],
-    "status": "Ongoing"
+    "artist": "糖人动漫",
+    "cover": "https://cdn.discordapp.com/attachments/1345717978490077274/1345718103161569331/1QZ0z.jpg?ex=67c59126&is=67c43fa6&hm=961c6fcf9ca0d24a937d43e9dbee68fb0d48ad87e0f23fee4b4062df10fbbb95&",
+    "status": "Ongoing",
+    "releaseYear": 2022,
+    "genres": ["Action", "Fantasy", "Adventure"],
+    "description": "Not Available",
+    "chapters": [
+      {
+        "number": 1,
+        "title": "Return of the Master",
+        "releaseDate": "2023-04-10",
+        "path": "comics/legendary-swordmaster/chapter-01"
+      },
+      {
+        "number": 2,
+        "title": "A New Beginning",
+        "releaseDate": "2023-04-17",
+        "path": "comics/legendary-swordmaster/chapter-02"
+      },
+      {
+        "number": 3,
+        "title": "Old Enemies",
+        "releaseDate": "2023-04-24",
+        "path": "comics/legendary-swordmaster/chapter-03"
+      }
+    ]
   }
 ]
