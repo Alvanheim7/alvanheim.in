@@ -1,15 +1,15 @@
 {
     "mangas": [
         {
-            "title": "Manga Title 1",
+            "title": "Manga 1",
             "synopsis": "This is a short synopsis of Manga Title 1.",
-            "image": "https://via.placeholder.com/200x300",
+            "image": "https://cdn.discordapp.com/attachments/1303281816484053044/1337093602852999218/20250206_213957.jpg?ex=67c52c34&is=67c3dab4&hm=56aff9efc04f1f249fb21b9a8c3eea5d3c3d63e2da9bb86d538fd21ab9b33424&",
             "link": "https://mangadex.org/title/1"
         },
         {
-            "title": "Manga Title 2",
+            "title": "Manga 2",
             "synopsis": "This is a short synopsis of Manga Title 2.",
-            "image": "https://via.placeholder.com/200x300",
+            "image": "https://cdn.discordapp.com/attachments/1303281816484053044/1337093602852999218/20250206_213957.jpg?ex=67c52c34&is=67c3dab4&hm=56aff9efc04f1f249fb21b9a8c3eea5d3c3d63e2da9bb86d538fd21ab9b33424&",
             "link": "https://mangadex.org/title/2"
         }
     ]
