@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alvenhiem - Home</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/script.js" defer></script>
+  <style>
+    /* Native smooth scrolling */
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav-container">
+      <div class="logo">
+        <img src="assets/logo.png" alt="Logo" />
+        <span>Alvenhiem</span>
+      </div>
+      <div class="menu-icon" id="menuToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <nav id="navMenu">
+        <ul>
+          <li><a href="#section1">Our Comics</a></li>
+          <li><a href="#section2">Chapters</a></li>
+          <li><a href="#section3">About</a></li>
+          <li><a href="#section4">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Our Comics Section (Carousel) -->
+    <section id="section1" class="comics-carousel">
+      <div class="container">
+        <h2>Our Comics</h2>
+        <div class="carousel">
+          <div class="comic-card">
+            <img src="assets/comic1.png" alt="Comic 1 Logo" />
+            <h3>Comic Title 1</h3>
+          </div>
+          <div class="comic-card">
+            <img src="assets/comic2.png" alt="Comic 2 Logo" />
+            <h3>Comic Title 2</h3>
+          </div>
+          <div class="comic-card">
+            <img src="assets/comic3.png" alt="Comic 3 Logo" />
+            <h3>Comic Title 3</h3>
+          </div>
+          <!-- Add more comic cards as needed -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Chapters Section (Static or populated later) -->
+    <section id="section2" class="chapters">
+      <div class="container">
+        <h2>Chapters</h2>
+        <div class="chapter-list">
+          <!-- Example chapter cards -->
+          <div class="chapter-card">
+            <img src="assets/comic1.png" alt="Comic 1 Logo" />
+            <h3>Comic Title 1</h3>
+            <p>Chapter 5</p>
+          </div>
+          <div class="chapter-card">
+            <img src="assets/comic2.png" alt="Comic 2 Logo" />
+            <h3>Comic Title 2</h3>
+            <p>Chapter 10</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="section3" class="about">
+      <div class="container">
+        <h2>About Our Group</h2>
+        <p>
+          Welcome to our scanlation group. We are dedicated to providing high-quality translations of your favorite manga and manhwa.
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="section4" class="contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>Contact details go here.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; <span id="currentYear"></span> Alvenhiem. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
