@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     <div class="manga-info">
                         <h2>${manga.title}</h2>
                         <p>${manga.synopsis}</p>
-                        <a href="${manga.link}" target="_blank">Read on MangaDex</a>
+                        <a href="${manga.link}" target="_blank">Read on Comic K</a>
                     </div>
                 `;
                 mangaGrid.appendChild(mangaBox);
