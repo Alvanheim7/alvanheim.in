@@ -1,0 +1,16 @@
+{
+    "mangas": [
+        {
+            "title": "Manga Title 1",
+            "synopsis": "This is a short synopsis of Manga Title 1.",
+            "image": "https://via.placeholder.com/200x300",
+            "link": "https://mangadex.org/title/1"
+        },
+        {
+            "title": "Manga Title 2",
+            "synopsis": "This is a short synopsis of Manga Title 2.",
+            "image": "https://via.placeholder.com/200x300",
+            "link": "https://mangadex.org/title/2"
+        }
+    ]
+}
