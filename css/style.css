@@ -30,7 +30,10 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Make header full-width and fill with black */
 header {
-  background: var(--background-darker);
+  background: url('https://cdn.discordapp.com/attachments/1345717978490077274/1345814899728842834/lv_0_20250302222544.gif?ex=67c5eb4c&is=67c499cc&hm=fbcce8978ad77b44ff393e2ce85fe9e924526659a50baf0373d81b570904efd2&'); /* Replace with your GIF link */
+  background-repeat: no-repeat; /* Prevent tiling */
+  background-size: cover; /* Cover the entire header */
+  background-position: center; /* Center the GIF */
   width: 100%;
   position: sticky;
   top: 0;
