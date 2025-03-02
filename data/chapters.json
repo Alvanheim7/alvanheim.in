@@ -2,37 +2,28 @@
   {
     "id": 1,
     "comicId": 1,
-    "comicTitle": "The Silent Kingdom",
-    "chapterNumber": 15,
-    "title": "The Whispering Chamber",
-    "releaseDate": "2025-02-25",
-    "coverImage": "assets/comic-covers/silent-kingdom.png"
+    "comicTitle": "What To Do When You Suddenly Become An Immortal",
+    "chapterNumber": 182.2,
+    "title": "None",
+    "releaseDate": "2025-03-01",
+    "coverImage": "https://cdn.discordapp.com/attachments/1345717978490077274/1345718103161569331/1QZ0z.jpg?ex=67c59126&is=67c43fa6&hm=961c6fcf9ca0d24a937d43e9dbee68fb0d48ad87e0f23fee4b4062df10fbbb95&"
   },
   {
     "id": 2,
-    "comicId": 2,
-    "comicTitle": "Neon Nights",
-    "chapterNumber": 8,
-    "title": "Cyber Dreams",
-    "releaseDate": "2025-02-28",
-    "coverImage": "assets/comic-covers/neon-nights.png"
+    "comicId": 1,
+    "comicTitle": "What To Do When You Suddenly Become An Immortal",
+    "chapterNumber": 182,
+    "title": "None",
+    "releaseDate": "2025-03-01",
+    "coverImage": "https://cdn.discordapp.com/attachments/1345717978490077274/1345718103161569331/1QZ0z.jpg?ex=67c59126&is=67c43fa6&hm=961c6fcf9ca0d24a937d43e9dbee68fb0d48ad87e0f23fee4b4062df10fbbb95&"
   },
   {
     "id": 3,
     "comicId": 1,
-    "comicTitle": "The Silent Kingdom",
-    "chapterNumber": 16,
-    "title": "Sound Rebellion",
+    "comicTitle": "What To Do When You Suddenly Become An Immortal",
+    "chapterNumber": 181,
+    "title": "None",
     "releaseDate": "2025-03-01",
-    "coverImage": "assets/comic-covers/silent-kingdom.png"
-  },
-  {
-    "id": 4,
-    "comicId": 3,
-    "comicTitle": "Legends of the Deep",
-    "chapterNumber": 27,
-    "title": "The Lost Trident",
-    "releaseDate": "2025-03-02",
-    "coverImage": "assets/comic-covers/legends-deep.png"
+    "coverImage": "https://cdn.discordapp.com/attachments/1345717978490077274/1345718103161569331/1QZ0z.jpg?ex=67c59126&is=67c43fa6&hm=961c6fcf9ca0d24a937d43e9dbee68fb0d48ad87e0f23fee4b4062df10fbbb95&"
   }
 ]
