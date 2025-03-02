@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Comic Details - Alvenhiem</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/details.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+</head>
+<body>
+  <header>
+    <div class="container nav-container">
+      <div class="logo">
+        <img src="assets/logo.png" alt="Logo" />
+        <span>Alvenhiem</span>
+      </div>
+      <!-- Hamburger menu for mobile -->
+      <div class="menu-icon" id="menuToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <nav id="navMenu">
+        <ul>
+          <li><a href="index.html#comics">Our Comics</a></li>
+          <li><a href="index.html#chapters">Latest Releases</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="details-page">
+    <div class="container">
+      <!-- Comic details section -->
+      <section class="comic-details-section">
+        <div id="detailsContent" class="details-content">
+          <div class="loading">Loading comic details...</div>
+        </div>
+      </section>
+
+      <!-- Chapters section -->
+      <section class="comic-chapters-section">
+        <div id="chaptersContent" class="chapters-content">
+          <div class="loading">Loading chapters...</div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="assets/logo.png" alt="Logo" />
+          <span>Alvenhiem</span>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html#comics">Our Comics</a></li>
+            <li><a href="index.html#chapters">Latest Releases</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h4>Follow Us</h4>
+          <div class="social-icons">
+            <a href="#" aria-label="Discord"><i class="fab fa-discord"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="currentYear"></span> Alvenhiem. All rights reserved.</p>
+        <p class="disclaimer">This is a non-profit fan translation group. All comics belong to their respective authors.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+  <script src="js/details.js"></script>
+</body>
+</html>
