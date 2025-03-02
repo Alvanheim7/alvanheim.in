@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "The Silent Kingdom",
+    "description": "A fantasy adventure about a kingdom where sound is forbidden.",
+    "coverImage": "assets/comic-covers/silent-kingdom.png",
+    "author": "Mira Chen",
+    "genre": ["Fantasy", "Adventure"],
+    "status": "Ongoing"
+  },
+  {
+    "id": 2,
+    "title": "Neon Nights",
+    "description": "A cyberpunk thriller set in a dystopian future city.",
+    "coverImage": "assets/comic-covers/neon-nights.png",
+    "author": "Kai Rodriguez",
+    "genre": ["Sci-Fi", "Thriller"],
+    "status": "Ongoing"
+  },
+  {
+    "id": 3,
+    "title": "Legends of the Deep",
+    "description": "Underwater adventures exploring ancient sea civilizations.",
+    "coverImage": "assets/comic-covers/legends-deep.png",
+    "author": "Aisha Waters",
+    "genre": ["Adventure", "Mystery"],
+    "status": "Completed"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "comicId": 1,
+    "comicTitle": "The Silent Kingdom",
+    "chapterNumber": 15,
+    "title": "The Whispering Chamber",
+    "releaseDate": "2025-02-25",
+    "coverImage": "assets/comic-covers/silent-kingdom.png"
+  },
+  {
+    "id": 2,
+    "comicId": 2,
+    "comicTitle": "Neon Nights",
+    "chapterNumber": 8,
+    "title": "Cyber Dreams",
+    "releaseDate": "2025-02-28",
+    "coverImage": "assets/comic-covers/neon-nights.png"
+  },
+  {
+    "id": 3,
+    "comicId": 1,
+    "comicTitle": "The Silent Kingdom",
+    "chapterNumber": 16,
+    "title": "Sound Rebellion",
+    "releaseDate": "2025-03-01",
+    "coverImage": "assets/comic-covers/silent-kingdom.png"
+  },
+  {
+    "id": 4,
+    "comicId": 3,
+    "comicTitle": "Legends of the Deep",
+    "chapterNumber": 27,
+    "title": "The Lost Trident",
+    "releaseDate": "2025-03-02",
+    "coverImage": "assets/comic-covers/legends-deep.png"
+  }
+]
