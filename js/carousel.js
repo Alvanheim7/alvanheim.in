@@ -60,4 +60,27 @@ function updateScrollButtonsVisibility(carousel, leftBtn, rightBtn) {
   } else {
     rightBtn.classList.remove('disabled');
   }
+} {
+  leftBtn.classList.toggle('disabled', carousel.scrollLeft <= 0);
+  
+  const atEnd = Math.abs(carousel.scrollLeft + carousel.clientWidth - carousel.scrollWidth) < 1;
+  rightBtn.classList.toggle('disabled', atEnd);
+}
+
+function enableSwipe(carousel) {
+  let startX = 0;
+
+  carousel.addEventListener('touchstart', (e) => {
+    startX = e.touches[0].clientX;
+  });
+
+  carousel.addEventListener('touchend', (e) => {
+    const endX = e.changedTouches[0].clientX;
+    const deltaX = startX - endX;
+
+    const scrollAmount = Math.min(300, carousel.clientWidth * 0.8);
+
+    if (deltaX > 50) carousel.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+    if (deltaX < -50) carousel.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+  });
 }
