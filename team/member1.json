@@ -1,6 +1,16 @@
 {
-  "name": "GuptaAman777",
-  "role": "Leader - Translator",
-  "priority": true,
-  "avatar": "assets/fe6d96166d7b2a806b889f1c1e843542.png" 
+  "id": "member-avebel",
+  "name": "Avebel",
+  "avatar": "assets/5789e869e625b6c342d43f881952a1d1.png",
+  "role": "Proof Reader",
+  "joinDate": "2025-01",
+  "about": "The one who's done all the work regarding this whole website, and also works as a proof reader.",
+  "skills": ["Proof Reading", "Web Manager"],
+  "favorite_comics": [],
+  "projects": [],
+  "contributions": "This Website",
+  "social": {
+    "Github": "https://github.com/Chaitanya-Gautam1"
+  },
+  "priority": true
 }
