@@ -60,10 +60,6 @@ document.addEventListener('DOMContentLoaded', function() {
     initContactForm(contactForm);
   }
   
-  if (document.querySelector('.team-grid')) {
-    loadTeamMembers();
-  }
-  
   setupCarouselNavigation();
   
   // Check for comic detail page
