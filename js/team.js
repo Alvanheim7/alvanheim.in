@@ -81,10 +81,6 @@ async function loadTeamMembers() {
       }
     });
 
-    // Sort alphabetically by name
-    priorityMembers.sort((a, b) => (a.name || '').localeCompare(b.name || ''));
-    otherMembers.sort((a, b) => (a.name || '').localeCompare(b.name || ''));
-
     // Append priority members
     priorityMembers.forEach((member) => {
       teamGrid.appendChild(createTeamMemberElement(member));
