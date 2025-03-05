@@ -3,14 +3,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Comic Details - Alvanheim</title>
+  <title>Comic Reader - Alvanheim</title>
   
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
   
-  <!-- Custom CSS -->
+  <!-- Global Styles -->
   <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="css/details.css" />
+  <!-- Reader Page Styles -->
+  <link rel="stylesheet" href="css/reader.css" />
 </head>
 <body>
   <header>
@@ -31,24 +32,24 @@
 
   <main>
     <div class="container">
-      <section class="comic-detail">
-        <h1 id="comic-title">Loading...</h1>
-        <img id="cover-image" src="" alt="Comic Cover" />
-        <div id="comic-info"></div>
+      <section class="reader-header">
+        <h1 id="chapter-title">Loading Chapter...</h1>
+        <!-- Drop-down menu for chapter selection -->
+        <select id="chapterSelect"></select>
       </section>
-
-      <section class="chapters">
-        <h2>Chapters</h2>
-        <div class="chapter-list" id="chapterList">
-          <!-- Chapter cards will be injected here -->
+      
+      <section class="reader-content">
+        <div id="page-container">
+          <!-- All comic page images will be displayed here -->
         </div>
-        <div class="show-more-container">
-          <button id="prevPage" class="read-button" disabled>
-            <i class="fas fa-chevron-left"></i> Previous
+        <!-- Pagination buttons now at the bottom of the chapter pages -->
+        <div class="chapter-pagination-bottom">
+          <button id="prevChapter" class="nav-btn" disabled>
+            <i class="fas fa-chevron-left"></i> Previous Chapter
           </button>
-          <span id="pageInfo"></span>
-          <button id="nextPage" class="read-button" disabled>
-            Next <i class="fas fa-chevron-right"></i>
+          <span id="chapterInfo">Chapter 0 of 0</span>
+          <button id="nextChapter" class="nav-btn" disabled>
+            Next Chapter <i class="fas fa-chevron-right"></i>
           </button>
         </div>
       </section>
@@ -61,7 +62,7 @@
     </div>
   </footer>
 
-  <!-- Custom JavaScript -->
-  <script src="js/details.js"></script>
+  <!-- Reader Page JavaScript -->
+  <script src="js/reader.js"></script>
 </body>
 </html>
