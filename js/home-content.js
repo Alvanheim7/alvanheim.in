@@ -28,7 +28,7 @@ async function loadComics() {
       `;
       
       comicCard.addEventListener('click', () => {
-        window.location.href = `details.html?id=${comic.id}`;
+        window.location.href = `details.html?comicId=${comic.id}`;
       });
       
       comicsCarousel.appendChild(comicCard);
@@ -108,7 +108,7 @@ async function loadChapters() {
           e.stopPropagation();
           
           if (chapter.comicId) {
-            window.location.href = `details.html?id=${chapter.comicId}&chapter=${chapter.chapterNumber}`;
+            window.location.href = `details.html?comicId=${chapter.comicId}&chapter=${chapter.chapterNumber}`;
           } else {
             alert(`You are about to read ${chapter.comicTitle} - Chapter ${chapter.chapterNumber}: ${chapter.title || ''}`);
           }

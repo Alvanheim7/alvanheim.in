@@ -14,19 +14,24 @@
         "number": 1,
         "title": "Return of the Master",
         "releaseDate": "2023-04-10",
-        "path": "comics/legendary-swordmaster/chapter-01"
-      },
-      {
-        "number": 2,
-        "title": "A New Beginning",
-        "releaseDate": "2023-04-17",
-        "path": "comics/legendary-swordmaster/chapter-02"
-      },
-      {
-        "number": 3,
-        "title": "Old Enemies",
-        "releaseDate": "2023-04-24",
-        "path": "comics/legendary-swordmaster/chapter-03"
+        "pages": [
+          "https://raw.githubusercontent.com/Alvanheim/image-hosting-alvanheim/main/1/ch1/1.jpg",
+          "https://raw.githubusercontent.com/Alvanheim/image-hosting-alvanheim/main/1/ch1/2.jpg",
+          "https://raw.githubusercontent.com/Alvanheim/image-hosting-alvanheim/main/1/ch1/3.jpg",
+          "https://raw.githubusercontent.com/Alvanheim/image-hosting-alvanheim/main/1/ch1/4.jpg",
+          "https://raw.githubusercontent.com/Alvanheim/image-hosting-alvanheim/main/1/ch1/5.jpg",
+          "https://raw.githubusercontent.com/Alvanheim/image-hosting-alvanheim/main/1/ch1/6.jpg",
+          "https://raw.githubusercontent.com/Alvanheim/image-hosting-alvanheim/main/1/ch1/7.jpg",
+          "https://raw.githubusercontent.com/Alvanheim/image-hosting-alvanheim/main/1/ch1/8.jpg",
+          "https://raw.githubusercontent.com/Alvanheim/image-hosting-alvanheim/main/1/ch1/9.jpg",
+          "https://raw.githubusercontent.com/Alvanheim/image-hosting-alvanheim/main/1/ch1/10.jpg",
+          "https://raw.githubusercontent.com/Alvanheim/image-hosting-alvanheim/main/1/ch1/11.jpg",
+          "https://raw.githubusercontent.com/Alvanheim/image-hosting-alvanheim/main/1/ch1/12.jpg",
+          "https://raw.githubusercontent.com/Alvanheim/image-hosting-alvanheim/main/1/ch1/13.jpg",
+          "https://raw.githubusercontent.com/Alvanheim/image-hosting-alvanheim/main/1/ch1/14.jpg",
+          "https://raw.githubusercontent.com/Alvanheim/image-hosting-alvanheim/main/1/ch1/15.jpg",
+          "https://raw.githubusercontent.com/Alvanheim/image-hosting-alvanheim/main/1/ch1/16.jpg"
+        ]
       }
     ]
   }
