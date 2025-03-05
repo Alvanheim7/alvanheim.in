@@ -46,21 +46,12 @@ function addCarouselControls(carousel) {
   carousel.addEventListener('scroll', () => {
     updateScrollButtonsVisibility(carousel, leftBtn, rightBtn);
   });
+
+  // Enable touch swipe functionality
+  enableSwipe(carousel);
 }
 
 function updateScrollButtonsVisibility(carousel, leftBtn, rightBtn) {
-  if (carousel.scrollLeft <= 0) {
-    leftBtn.classList.add('disabled');
-  } else {
-    leftBtn.classList.remove('disabled');
-  }
-  
-  if (Math.abs(carousel.scrollLeft + carousel.clientWidth - carousel.scrollWidth) < 1) {
-    rightBtn.classList.add('disabled');
-  } else {
-    rightBtn.classList.remove('disabled');
-  }
-} {
   leftBtn.classList.toggle('disabled', carousel.scrollLeft <= 0);
   
   const atEnd = Math.abs(carousel.scrollLeft + carousel.clientWidth - carousel.scrollWidth) < 1;

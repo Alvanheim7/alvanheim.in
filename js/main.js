@@ -109,6 +109,3 @@ function handleError(errorMessage, error) {
   console.error('========== ERROR DETAILS END ==========');
   return errorMessage;
 }
-.error('========== ERROR DETAILS END ==========');
-  return errorMessage;
-}

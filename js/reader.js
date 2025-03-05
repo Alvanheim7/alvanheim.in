@@ -32,11 +32,15 @@ document.addEventListener('DOMContentLoaded', function() {
       return response.json();
     })
     .then(data => {
-      comicData = data.find(c => c.id === comicId);
+      // Sort chapters in descending order
+      const sortedChapters = data.find(c => c.id === comicId).chapters.sort((a, b) => b.number - a.number);
+      comicData = {...data.find(c => c.id === comicId), chapters: sortedChapters};
+
       if (!comicData) {
         document.querySelector('.container').innerHTML = '<p>Comic not found</p>';
         return;
       }
+      
       // Populate the drop-down menu with chapters
       comicData.chapters.forEach((chapter, index) => {
         let option = document.createElement('option');
@@ -78,39 +82,61 @@ document.addEventListener('DOMContentLoaded', function() {
     // Display all pages of the chapter
     if (Array.isArray(chapter.pages) && chapter.pages.length) {
       chapter.pages.forEach((pageUrl, index) => {
+        const pageWrapper = document.createElement('div');
+        pageWrapper.className = 'page-wrapper';
+        
+        // Create a page number placeholder
+        const pageNumberPlaceholder = document.createElement('div');
+        pageNumberPlaceholder.className = 'page-number-placeholder';
+        pageNumberPlaceholder.textContent = `Page ${index + 1}`;
+        
+        // Create the image
         const img = document.createElement('img');
         img.src = pageUrl;
         img.alt = `Page ${index + 1}`;
-        pageContainer.appendChild(img);
+        
+        // Replace placeholder with image when loaded
+        img.addEventListener('load', () => {
+          pageNumberPlaceholder.style.display = 'none';
+          img.style.display = 'block';
+        });
+        
+        // Initially hide the image
+        img.style.display = 'none';
+        
+        pageWrapper.appendChild(pageNumberPlaceholder);
+        pageWrapper.appendChild(img);
+        pageContainer.appendChild(pageWrapper);
       });
     } else {
       pageContainer.innerHTML = '<p>No pages available for this chapter.</p>';
     }
-    // Update pagination buttons
-    prevChapterBtn.disabled = (currentChapterIndex === 0);
-    nextChapterBtn.disabled = (currentChapterIndex === comicData.chapters.length - 1);
+    
+    // Update navigation buttons visibility and state
+    prevChapterBtn.style.display = (currentChapterIndex < comicData.chapters.length - 1) ? 'block' : 'none';
+    nextChapterBtn.style.display = (currentChapterIndex > 0) ? 'block' : 'none';
   }
 
   // Chapter navigation event listeners
   prevChapterBtn.addEventListener('click', () => {
-    if (currentChapterIndex > 0) {
-      const prevChapter = comicData.chapters[currentChapterIndex - 1];
+    if (currentChapterIndex < comicData.chapters.length - 1) {
+      const prevChapter = comicData.chapters[currentChapterIndex + 1];
       window.location.href = `reader.html?comicId=${comicId}&chapter=${prevChapter.number}`;
     }
   });
 
   nextChapterBtn.addEventListener('click', () => {
-    if (currentChapterIndex < comicData.chapters.length - 1) {
-      const nextChapter = comicData.chapters[currentChapterIndex + 1];
+    if (currentChapterIndex > 0) {
+      const nextChapter = comicData.chapters[currentChapterIndex - 1];
       window.location.href = `reader.html?comicId=${comicId}&chapter=${nextChapter.number}`;
     }
   });
 
   // Keyboard support: arrow keys for chapter navigation
   document.addEventListener('keydown', function(e) {
-    if (e.key === 'ArrowRight' && !nextChapterBtn.disabled) {
+    if (e.key === 'ArrowRight' && nextChapterBtn.style.display !== 'none') {
       nextChapterBtn.click();
-    } else if (e.key === 'ArrowLeft' && !prevChapterBtn.disabled) {
+    } else if (e.key === 'ArrowLeft' && prevChapterBtn.style.display !== 'none') {
       prevChapterBtn.click();
     }
   });
