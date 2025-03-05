@@ -1,7 +1,7 @@
 [
   {
-    "id": 1,
     "comicId": 1,
+    "id": 1,
     "comicTitle": "What To Do When You Suddenly Become An Immortal",
     "chapterNumber": 183,
     "title": "糖人动漫",
@@ -9,8 +9,8 @@
     "coverImage": "https://raw.githubusercontent.com/Alvanheim/image-hosting-alvanheim/main/cover/1QZ0z.jpg"
   },
   {
-    "id": 1,
-    "comicId": 2,
+    "comicId": 1,
+    "id": 2,
     "comicTitle": "What To Do When You Suddenly Become An Immortal",
     "chapterNumber": 182,
     "title": "糖人动漫",
