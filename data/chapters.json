@@ -19,6 +19,15 @@
   },
   {
     "comicId": 1,
+    "id": 5,
+    "comicTitle": "What Do You Do When You Suddenly Become An Immortal",
+    "chapterNumber": 142,
+    "title": "Chapter 142",
+    "releaseDate": "2025-03-06",
+    "coverImage": "https://github.com/Alvanheim/image-hosting-alvanheim/blob/main/cover/1-WhatDoYouDoWhenYouSuddenlyBecomeAnImmortal%3F.jpg?raw=true"
+  },
+  {
+    "comicId": 1,
     "id": 4,
     "comicTitle": "What To Do When You Suddenly Become An Immortal",
     "chapterNumber": 2,
