@@ -84,6 +84,7 @@
 
 .chapter-list {
   display: grid;
+  align-items: center;
   grid-template-columns: 1fr;
   gap: 20px;
   margin-top: 40px;
