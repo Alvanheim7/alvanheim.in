@@ -1,7 +1,7 @@
 [
   {
     "comicId": 1,
-    "id": 6,
+    "id": 1,
     "comicTitle": "What Do You Do When You Suddenly Become An Immortal",
     "chapterNumber": 14028328,
     "title": "Chapter 14028328",
@@ -10,25 +10,7 @@
   },
   {
     "comicId": 1,
-    "id": 1,
-    "comicTitle": "What To Do When You Suddenly Become An Immortal",
-    "chapterNumber": 183,
-    "title": "\u7cd6\u4eba\u52a8\u6f2b",
-    "releaseDate": "2024-12-02",
-    "coverImage": "https://github.com/Alvanheim/image-hosting-alvanheim/blob/main/cover/1-WhatDoYouDoWhenYouSuddenlyBecomeAnImmortal%3F.jpg?raw=true.jpg"
-  },
-  {
-    "comicId": 1,
-    "id": 2,
-    "comicTitle": "What To Do When You Suddenly Become An Immortal",
-    "chapterNumber": 182,
-    "title": "\u7cd6\u4eba\u52a8\u6f2b",
-    "releaseDate": "2024-11-17",
-    "coverImage": "https://github.com/Alvanheim/image-hosting-alvanheim/blob/main/cover/1-WhatDoYouDoWhenYouSuddenlyBecomeAnImmortal%3F.jpg?raw=true.jpg"
-  },
-  {
-    "comicId": 1,
-    "id": 5,
+    "id": 4,
     "comicTitle": "What Do You Do When You Suddenly Become An Immortal",
     "chapterNumber": 142,
     "title": "Chapter 142",
@@ -37,11 +19,29 @@
   },
   {
     "comicId": 1,
-    "id": 4,
-    "comicTitle": "What To Do When You Suddenly Become An Immortal",
+    "id": 5,
+    "comicTitle": "What Do You Do When You Suddenly Become An Immortal",
     "chapterNumber": 2,
-    "title": "\u7cd6\u4eba\u52a8\u6f2b",
+    "title": "Chapter 2",
     "releaseDate": "2025-03-06",
+    "coverImage": "https://github.com/Alvanheim/image-hosting-alvanheim/blob/main/cover/1-WhatDoYouDoWhenYouSuddenlyBecomeAnImmortal%3F.jpg?raw=true"
+  },
+  {
+    "comicId": 1,
+    "id": 2,
+    "comicTitle": "What Do You Do When You Suddenly Become An Immortal",
+    "chapterNumber": 183,
+    "title": "Online Class Is Here",
+    "releaseDate": "2024-12-02",
+    "coverImage": "https://github.com/Alvanheim/image-hosting-alvanheim/blob/main/cover/1-WhatDoYouDoWhenYouSuddenlyBecomeAnImmortal%3F.jpg?raw=true"
+  },
+  {
+    "comicId": 1,
+    "id": 3,
+    "comicTitle": "What Do You Do When You Suddenly Become An Immortal",
+    "chapterNumber": 182,
+    "title": "Love Story Of A Demoness",
+    "releaseDate": "2024-11-17",
     "coverImage": "https://github.com/Alvanheim/image-hosting-alvanheim/blob/main/cover/1-WhatDoYouDoWhenYouSuddenlyBecomeAnImmortal%3F.jpg?raw=true"
   }
 ]
