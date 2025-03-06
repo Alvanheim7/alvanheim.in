@@ -1,6 +1,15 @@
 [
   {
     "comicId": 1,
+    "id": 6,
+    "comicTitle": "What Do You Do When You Suddenly Become An Immortal",
+    "chapterNumber": 14028328,
+    "title": "Chapter 14028328",
+    "releaseDate": "2025-03-06",
+    "coverImage": "https://github.com/Alvanheim/image-hosting-alvanheim/blob/main/cover/1-WhatDoYouDoWhenYouSuddenlyBecomeAnImmortal%3F.jpg?raw=true"
+  },
+  {
+    "comicId": 1,
     "id": 1,
     "comicTitle": "What To Do When You Suddenly Become An Immortal",
     "chapterNumber": 183,
@@ -31,15 +40,6 @@
     "id": 4,
     "comicTitle": "What To Do When You Suddenly Become An Immortal",
     "chapterNumber": 2,
-    "title": "\u7cd6\u4eba\u52a8\u6f2b",
-    "releaseDate": "2025-03-06",
-    "coverImage": "https://github.com/Alvanheim/image-hosting-alvanheim/blob/main/cover/1-WhatDoYouDoWhenYouSuddenlyBecomeAnImmortal%3F.jpg?raw=true"
-  },
-  {
-    "comicId": 1,
-    "id": 3,
-    "comicTitle": "What To Do When You Suddenly Become An Immortal",
-    "chapterNumber": 1,
     "title": "\u7cd6\u4eba\u52a8\u6f2b",
     "releaseDate": "2025-03-06",
     "coverImage": "https://github.com/Alvanheim/image-hosting-alvanheim/blob/main/cover/1-WhatDoYouDoWhenYouSuddenlyBecomeAnImmortal%3F.jpg?raw=true"
