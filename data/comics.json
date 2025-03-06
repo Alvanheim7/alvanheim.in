@@ -118,5 +118,19 @@
         "pages": []
       }
     ]
+  },
+  {
+    "id": "2",
+    "title": "What is this",
+    "author": "Chintu",
+    "artist": "Chintu ka son",
+    "coverImage": "https://raw.githubusercontent.com/Alvanheim7/image-hosting-alvanheim/main/cover/2.jpg",
+    "status": "Ongoing",
+    "releaseYear": 3025,
+    "genres": [
+      "Action"
+    ],
+    "description": "Chintu be tripping",
+    "chapters": []
   }
 ]
