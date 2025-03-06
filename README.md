@@ -71,6 +71,6 @@ Alvanheim is designed to be the gateway for fans seeking translated comics. The 
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/yourusername/alvanheim.git
+   git clone https://github.com/Alvamheim/alvanheim.in
    
 Note: You can only clone this git for educational purposes, if you want to use this template/theme for your own website, you must contact **Avebel** first and ask for permission. You also have to give credits somewhere in the website where it is clearly visible, with readable font, occupacy, size, and position.
